@@ -1,9 +1,14 @@
 .button {
   background-color: #363c50;
-
   border-radius: 5px;
   border: 4px solid #262a38;
   font-size: 18px;
   color: white;
   padding: 0 20px;
+  transition: 0.5s;
+
+  &:hover {
+    background-color: #262a38;
+    cursor: pointer;
+  }
 }

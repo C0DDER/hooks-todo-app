@@ -8,7 +8,7 @@ const Input = ({ onChange, value, placeholder }) => {
       onChange={(e) => onChange(e)}
       value={value}
       placeholder={placeholder}
-      className="input-text"
+      className="input-text "
     />
   );
 };
