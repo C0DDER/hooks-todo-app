@@ -1,0 +1,21 @@
+.task-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid lightslategrey;
+
+  a {
+    margin-left: 10px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .in-progress {
+    text-decoration: none;
+  }
+
+  .done {
+    text-decoration: line-through;
+  }
+}
